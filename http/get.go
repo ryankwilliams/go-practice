@@ -8,8 +8,8 @@ import (
 	"net/http"
 )
 
-func main() {
-	resp, err := http.Get("http://example.com")
+func Get(url string) string {
+	resp, err := http.Get(url)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -23,5 +23,5 @@ func main() {
 
 	bodyText := string(body)
 
-	log.Println(bodyText)
+	return bodyText
 }
