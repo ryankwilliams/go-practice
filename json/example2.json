@@ -1,0 +1,18 @@
+{
+    "cars": [
+        {
+            "make": "toyota",
+            "model": "4Runner",
+            "trim": "TRD Pro",
+            "color": "Super White",
+            "year": 2022
+        },
+        {
+            "make": "toyota",
+            "model": "Rav4",
+            "trim": "Adventure",
+            "color": "Lunar Rock",
+            "year": 2019
+        }
+    ]
+}
