@@ -40,8 +40,10 @@ func createFruit(name string, color string) *Fruit {
 }
 
 func example2() {
+	fmt.Println("-- Example 2 --")
 	apple := createFruit("Apple", "Red")
 	fmt.Printf("Apple can be the color '%s'\n", apple.Color)
+	fmt.Println("-- Example 2 --")
 }
 
 func main() {
